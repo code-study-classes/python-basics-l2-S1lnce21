@@ -14,7 +14,7 @@ def get_domains(emails):
 # task 3
 
 def filter_target_audience(users):
-    return [user for user in users if user['age'] >= 18 and user['is_premium'] == True]
+    return [user for user in users if user['age'] >= 18 and user['is_premium']]
 
 # task 4
 
